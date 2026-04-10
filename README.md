@@ -33,7 +33,7 @@ Device: Samsung Galaxy M21 (Exynos 9611)
 
 ## Discoveries
 
-### Bootloop Bypass (Broken Security HALs)
+### Home Pill Hammer (Bootloop bypass for broken security HALs)
 
 A method to bypass certain bootloops caused by broken or incomplete security HAL implementations.
 
