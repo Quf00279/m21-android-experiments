@@ -48,5 +48,5 @@ A method to bypass certain bootloops caused by broken or incomplete security HAL
 - Devices with incomplete Treble support
 - Especially Exynos-based devices
 
-####Note:
+#### Note:
 Experimental. Results may vary depending on ROM and device state
