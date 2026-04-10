@@ -55,12 +55,12 @@ Experimental. Results may vary depending on ROM and device state
 
 - PixelOS GSI (Android 13)
 
-  Source: (https://github.com/MisterZtr/PixelOS_gsi/releases)
+  Source: https://github.com/MisterZtr/PixelOS_gsi/releases
 
 - crDroid 12.8 (Android 16, Official)
 
-  Source: <link here>
+  Source: https://crdroid.net/m21/12
 
 - LineageOS 23.2 (Android 16, Unofficial)
 
-  Source: <link here>
+  Source: https://github.com/Exynos9611Development/OTA/releases
