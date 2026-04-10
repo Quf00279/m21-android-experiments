@@ -1,26 +1,52 @@
-# m21-android-experiments
+# Galaxy M21 Android Experiments
+
+Device: Samsung Galaxy M21 (Exynos 9611)
+
+---
 
 ## Experiments
-1. Booted Android 13 Pixel Experience GSI with GApps
 
->Worked better than expected
+### Android 13 - Pixel Experience GSI (with GApps)
+- Boot: Yes
+- Performance: Better than expected
+- Issues:
+  - VoLTE bugs
 
->Volte bugs
+---
 
-2. Booted Android 16 (QPR2) crDroid 12.8 ROM, no GApps [Official build]
+### Android 16 (QPR2) - crDroid 12.8 (Official, no GApps)
+- Boot: Yes
+- Performance: Smoother than OneUI
+- Issues:
+  - Slight auto-brightness bugs
 
->Auto-brightness has slight bugs
+---
 
->Smoother than OneUI
+### Android 16 (QPR2) - LineageOS 23.2 (Unofficial, no GApps)
+- Boot: Yes
+- Performance: Smoother than crDroid
+- Notes:
+  - Less customization compared to other builds
+  - During flashing, DO NOT WIPE DALVIK/CACHE. IT CAUSES BOOTLOOPS.
 
-3. Booted Android 16 (QPR2) LineageOS 23.2 ROM, no GApps [Unofficial build]
-
->Smoother than crDroid
-
->However, less customisation than other builds
+---
 
 ## Discoveries
 
-1. Bootloop bypass due to broken security HALs
+### Bootloop Bypass (Broken Security HALs)
 
->A method involving rapid navigation gesture input (spamming) on the home pill/home button on 2-button/3-button navigation bars during rebooting of a GSI. Forces the system to respond and go to the home page before other security measures kick in. Works only if rapidly giving navigation gesture inputs (spamming) the moment the navigation bar appears. Used for devices with incomplete Treble support, especially Exynos devices.
+A method to bypass certain bootloops caused by broken or incomplete security HAL implementations.
+
+#### Method:
+- During boot, **spam navigation inputs** (home button / gesture pill)
+- Timing is critical:
+  - Start immediately when the navigation bar appears
+- This can force the system to reach the home screen before security checks fully initialize
+
+#### Works on:
+- Some GSIs
+- Devices with incomplete Treble support
+- Especially Exynos-based devices
+
+####Note:
+Experimental. Results may vary depending on ROM and device state
