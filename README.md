@@ -6,7 +6,7 @@ Device: Samsung Galaxy M21 (Exynos 9611)
 
 ## Experiments
 
-### Android 13 - Pixel Experience GSI (with GApps)
+### Android 13 - PixelOS GSI (with GApps)
 - Boot: Yes
 - Performance: Better than expected
 - Issues:
@@ -50,3 +50,14 @@ A method to bypass certain bootloops caused by broken or incomplete security HAL
 
 #### Note:
 Experimental. Results may vary depending on ROM and device state
+
+## ROM Sources
+
+- PixelOS GSI (Android 13)
+  Source: [<link here>](https://github.com/MisterZtr/PixelOS_gsi/releases)
+
+- crDroid 12.8 (Android 16, Official)
+  Source: <link here>
+
+- LineageOS 23.2 (Android 16, Unofficial)
+  Source: <link here>
